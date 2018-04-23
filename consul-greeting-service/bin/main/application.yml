@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: greeting-cloud-service
+server:
+  port: 8282
+
+  instance:
+    preferIpAddress: true

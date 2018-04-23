@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-consul-feign-client
+server:
+  port: 8888
+
+ 
+feign:
+       hystrix:
+                enabled: true
